@@ -1,0 +1,97 @@
+h2{
+    font-family: itc-benguiat, serif;
+}
+h3{
+    font-family: itc-benguiat, serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    color:#BCB8B5;
+    margin: 20px;
+}
+p{
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    color: #BCB8B5;
+}
+.row{
+    margin: 20px;
+}
+.section-about .section-heading, 
+.section-skills .section-heading {
+    background: url('../hw19-images/fogtree1.jpg');
+    background-size: cover;
+    background-position: bottom center;
+}
+.section-about .section-heading h2, 
+.section-skills .section-heading h2,
+.section-works .section-heading h2{
+    color: #C82121;
+}
+.section-heading h2{
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 320px;
+    line-height: 1;
+    margin: 0;
+}
+/* about */
+.section-about{
+    background-color: #C82121;
+}
+
+/* skills */
+.section-skills{
+    background-color: #C82121;
+    color: #BCB8B5;
+}
+.section-skills img[data-emergence]{
+    transition: all 300ms ease;
+
+}
+.section-skills img[data-emergence="hidden"]{
+    opacity: 0;
+    transform: translateY(-10px);
+}
+.section-skills img[data-emergence="visible"]{
+    opacity: 1;
+    transform: translateY(0px);
+}
+/* works */
+.section-works{
+    background: url('../hw19-images/fogtree1.jpg');
+    background-size: cover;
+}
+.work-item{
+    margin-bottom: 100px;
+}
+.work-item img{
+    display: block;
+    margin: 0 auto;
+}
+.section-works .section-cta{
+    display: flex;
+    justify-content: center;
+}
+.section-works .section-cta a{
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #BCB8B5;    
+}
+.section-works .section-cta a:hover{
+    color: #C82121;
+    font-family: itc-benguiat, serif;
+    font-weight: 700;
+    transition:all .3s ease;
+}
